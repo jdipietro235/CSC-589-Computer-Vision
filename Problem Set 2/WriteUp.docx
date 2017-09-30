@@ -1,0 +1,13 @@
+Justin DiPietro
+Computer Vision
+Homework 2
+
+Problem 1:  I pulled in the cheetah and zebra pictures. Then I applied a gaussian filter with a coefficient of 3. From there I calculated the Descrete Fourier Transform of each blurred image using the np.fft.fft2 function. Then I put the magnitude on a plot.
+Both magnitudes look very similar. They are lighter on the outside and darker and noisier on the inside.
+
+Problem 2: I pulled in the cheetah image again to use for this problem. First I flattened the image into a one dimensional plot. Then I put that into a histogram.  Then I calculated the cumulative values and put that into a histogram and overlaid the two. 
+
+Problem 3: I applied a series of sobel filters to highlight the edges.
+
+Problem 4: I performed edge detection by applying a sobel filter, which highlighted the edges of the image. Then I made every value an absolute value.
+
